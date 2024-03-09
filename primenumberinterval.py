@@ -7,3 +7,5 @@ for i in range(2,n+1,1):
 for j in range (1,n):
     if count == 1:
         print(j,end='\n')
+
+#Not completed this code yet
