@@ -2,6 +2,8 @@
 
 #Let us suppose we have a list l with some duplicate elements
 
+#User input of the complete list can be done this is just an example
+
 l = ['apple','banana','apple','strawberry','mango','blackberry']
 a = input("Enter the element you want to remove duplicates")
 #count = 0
