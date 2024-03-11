@@ -1,9 +1,10 @@
 #Program to print prime number in an interval
-n = int(input("Enter the number upto which you want to print the number"))
-count = 0
-for i in range(2,n+1,1):
-    if n%i !=0:
-        count += 1
-for j in range (1,n):
-    if count == 1:
-        print(j,end='\n')
+lower = int(input("Enter the lower value of the interval"))
+upper = int(input("Enter the upper value of the interval"))
+for i in range(lower,upper+1,1):
+    if i >1:
+        for j in range(2,i):
+            if i%j == 0:
+                break
+        else:
+            print(i)
